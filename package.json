@@ -5,8 +5,10 @@
   "version": "0.0.1",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
-    "server": "node index.js",
+    "startup-win": "echo \"I'm not doing this on Windows, so this might break!\" || npm i || npm run build || npm start",
+    "startup-unix": "npm i && npm run build && npm start",
+    "build": "webpack --progress --colors",
+    "start": "node index.js",
     "watch": "webpack --progress --colors --watch"
   },
   "repository": {
@@ -14,12 +16,14 @@
     "url": "git+https://github.com/hooph00p/react-bulma-template.git"
   },
   "keywords": [
-    "hoop",
+    "hooph00p",
+    "@hooph00p",
     "template",
     "boilerplate",
     "react",
     "bulma",
     "hello world",
+    "helloworld",
     "hooph00p",
     "react-bulma-template"
   ],
@@ -46,6 +50,7 @@
   },
   "dependencies": {
     "bulma": "^0.3.0",
+    "express": "^4.14.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2"
   }

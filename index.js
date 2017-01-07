@@ -3,7 +3,7 @@
  * More Info: https://github.com/hooph00p/react-bulma-template#readme
  */
 var package = require('./package.json'),
-    port = env.port || 8080,
+    port = process.env.PORT || 8080,
     express = require('express');
 
 // Create an App
