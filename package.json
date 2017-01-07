@@ -1,0 +1,52 @@
+{
+  "name": "react-bulma-template",
+  "title": "Hello World",
+  "author": "Jared Hooper (@hooph00p)",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "server": "node index.js",
+    "watch": "webpack --progress --colors --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hooph00p/react-bulma-template.git"
+  },
+  "keywords": [
+    "hoop",
+    "template",
+    "boilerplate",
+    "react",
+    "bulma",
+    "hello world",
+    "hooph00p",
+    "react-bulma-template"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hooph00p/react-bulma-template/issues"
+  },
+  "homepage": "https://github.com/hooph00p/react-bulma-template#readme",
+  "devDependencies": {
+    "babel-core": "^6.20.0",
+    "babel-loader": "^6.2.9",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "css-loader": "^0.26.1",
+    "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.24.1",
+    "json-loader": "^0.5.4",
+    "node-sass": "^4.1.1",
+    "sass-loader": "^4.1.1",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "dependencies": {
+    "bulma": "^0.3.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
