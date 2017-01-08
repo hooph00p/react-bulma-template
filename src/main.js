@@ -1,21 +1,25 @@
 /**
  * React Entry Point
- * More Info: https://github.com/hooph00p/react-bulma-template#readme
+ * More Info: https://github.com/hooph00p/aweber-hero#readme
  */
-import Bulma from '../node_modules/bulma/css/bulma.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Bulma from '../node_modules/bulma/css/bulma.css';
+
 import Style from './style.sass';
 
-function App() {
-    return (
-        <div>
-            <p> Hello, world. </p>
-        </div>
-    );
+
+class App extends React.Component {
+    render() {
+        return (
+            <div>
+                <p> Hello, world. </p>
+            </div>
+        );
+    }
 }
 
 ReactDOM.render(
     <App />,
-    document.body
+    document.getElementById('app')
 );

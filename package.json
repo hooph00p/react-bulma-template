@@ -1,6 +1,6 @@
 {
-  "name": "react-bulma-template",
-  "title": "Hello World",
+  "name": "aweber-hero",
+  "title": "AWeber Hero Application",
   "author": "Jared Hooper (@hooph00p)",
   "version": "0.0.1",
   "main": "index.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hooph00p/react-bulma-template.git"
+    "url": "git+https://github.com/hooph00p/aweber-hero.git"
   },
   "keywords": [
     "hooph00p",
@@ -25,13 +25,13 @@
     "hello world",
     "helloworld",
     "hooph00p",
-    "react-bulma-template"
+    "aweber-hero"
   ],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hooph00p/react-bulma-template/issues"
+    "url": "https://github.com/hooph00p/aweber-hero/issues"
   },
-  "homepage": "https://github.com/hooph00p/react-bulma-template#readme",
+  "homepage": "https://github.com/hooph00p/aweber-hero#readme",
   "devDependencies": {
     "babel-core": "^6.20.0",
     "babel-loader": "^6.2.9",

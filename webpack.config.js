@@ -1,6 +1,6 @@
 /**
  * Webpack Configuration file
- * More Info: https://github.com/hooph00p/react-bulma-template#readme
+ * More Info: https://github.com/hooph00p/aweber-hero#readme
  */
 
 var path = require('path'),
